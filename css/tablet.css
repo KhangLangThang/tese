@@ -1,0 +1,63 @@
+/* talbet */
+@media (max-width: 768px) {
+    #job-info {
+        grid-template-columns: repeat(2, 40%);
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+
+
+    .showcase-cv {
+        display: block;
+    }
+
+
+    .cv-navbar {
+        padding: 12px 24px;
+    }
+
+    /* certificate */
+
+    #certificate .container {
+        padding: 0 10px;
+    }
+
+    .certificate-img {
+        display: block;
+    }
+
+    .certificate-img img {
+        width: 80%;
+    }
+
+    .text-certificate {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+
+    @media (max-width:633px) {
+        .Like {
+            flex-wrap: wrap;
+        }
+    }
+
+    /* project */
+    #project {
+        font-size: 12px;
+        color: #868e96;
+    }
+
+    .icon-project {
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .space-icon {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
